@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIN MAX</title>
+</head>
+<body>
+    <div class="container">
+        <h1>LeaderBoard</h1>
+        <div class="score-box">
+          <input type="text" id="score" placeholder="Score" readonly>
+        </div>
+        <div class="button-grid">
+          <button onclick="updateScore(1)">1</button>
+          <button onclick="updateScore(2)">2</button>
+          <button onclick="updateScore(3)">3</button>
+          <button onclick="updateScore(4)">4</button>
+          <button onclick="updateScore(5)">5</button>
+          <button onclick="updateScore(6)">6</button>
+          <button onclick="updateScore(7)">7</button>
+          <button onclick="updateScore(8)">8</button>
+          <button onclick="updateScore(9)">9</button>
+          <button onclick="enterScore()">ENTER</button>
+        </div>
+        <div class="min-max-box">
+          <input type="text" id="min-score" placeholder="MIN" readonly>
+          <input type="text" id="max-score" placeholder="MAX" readonly>
+        </div>
+      </div>
+</body>
+<script src="index.js"></script>
+</html>
